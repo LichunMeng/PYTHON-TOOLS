@@ -4,7 +4,7 @@ from matplotlib.ticker import (AutoMinorLocator, MultipleLocator)
 #############################
 ####### Data X y1 y2
 t = np.arange(0.0, 2.0, 0.01);
-s1 = 1 + 1*np.sin(2*np.pi*t);
+s1 = 2 + 1*np.sin(2*np.pi*t);
 s2 = -1+np.cos(2*np.pi*t);
 #############################
 ####### On an OFF control
